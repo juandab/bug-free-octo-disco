@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+    background: rgba(4,71,204,1);
+    background: -moz-linear-gradient(left, #0447cc 0%, rgba(4,71,204,1) 28%, rgba(216,42,0,1) 66%, rgba(216,42,0,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(4,71,204,1)), color-stop(28%, rgba(4,71,204,1)), color-stop(66%, rgba(216,42,0,1)), color-stop(100%, rgba(216,42,0,1)));
+    background: -webkit-linear-gradient(left, rgba(4,71,204,1) 0%, rgba(4,71,204,1) 28%, rgba(216,42,0,1) 66%, rgba(216,42,0,1) 100%);
+    background: -o-linear-gradient(left, rgba(4,71,204,1) 0%, rgba(4,71,204,1) 28%, #d82a00 66%, rgba(216,42,0,1) 100%);
+    background: -ms-linear-gradient(left, rgba(4,71,204,1) 0%, rgba(4,71,204,1) 28%, rgba(216,42,0,1) 66%, rgba(216,42,0,1) 100%);
+    background: linear-gradient(to right, rgba(4,71,204,1) 0%, rgba(4,71,204,1) 28%, rgba(216,42,0,1) 66%, rgba(216,42,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0447cc', endColorstr='#d82a00', GradientType=1 );
+}
+.copo {
+    display: inline-block;
+    margin: 0;
+    background-size: cover;
+    padding: 12.4%;
+}
+.copo:hover {
+    background-color:#0548cd;
+}
+.fuego {
+    display: inline-block;
+    margin: 0;
+    background-size: cover;
+    padding: 12.4%; 
+}
+.fuego:hover {
+   background-color: #d82a00;
+} 
+img {
+    margin: auto;
+    width: 314px;
+    height: 314px;
+}
+img:hover {
+    transform: scale(1.5);
+    transition-duration: 2s;
+    /* transition-duration: 2s; */
+}
+.titulo {
+    text-align: center;
+}
+.title {
+    color: #000;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    /* font-weight: bold; */
+    font-size: 80px;
+    position: absolute;
+    top: 20px;
+    left: 45%;
+}

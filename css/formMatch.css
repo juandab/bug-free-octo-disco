@@ -1,0 +1,76 @@
+*{
+    padding: 0%;
+    margin: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+header nav ul  {
+    padding: 15px;
+    margin: 10px;
+    list-style: none;
+ display: inline-block;
+ background-color: #0447cc;
+
+}
+header nav ul li a {
+    font-weight: bolder;
+    font-size: 18px;
+    text-decoration: none;
+    color:#fff;
+}
+header nav ul li a:hover {
+    color: #000;
+}
+header  {
+    text-align: center;
+    background-color: #0447cc;
+
+}
+.registro  {
+    margin-top: 40px;
+    text-align: center;
+}
+.registro .title  {
+    background-color: #0447cc;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+form  {
+    display: inline-block;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+form input{
+    border: solid 1px #0447cc;
+    font-size: 20px;
+    padding-left: 10px;
+}
+form label {
+    color: #000;
+    font-weight: bold;
+}
+form button {
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 25px;
+    background-color: #0447cc;
+    border: none;
+    margin-bottom: 15px;
+}
+form button:hover {
+    color: #000;
+}
+.blockForm {
+    padding: 0;
+    border: 1px solid #0447cc;
+    margin:1%  15%;
+    border-radius: 10px ;
+}
+.blockForm  img{
+    width: 300px;
+    margin-left: 20px;
+margin-bottom: 100px ;
+    height: auto;
+}
